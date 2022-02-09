@@ -14,7 +14,7 @@ function App() {
 
 <img src={"/imageInSrc.jpg"} />
 
-<br >
+<br />
 
 <img src={"/imageInPublic.jpg" }/>
 
@@ -22,7 +22,7 @@ function App() {
 
 <video width="320" height="240" controls>
 
-<source src='this is me.mp4' type='video/mp4' >
+<source src='this is me.mp4' type='video/mp4' />
 
 </video>
     </div>
