@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import src from './src.png';
-import video from './scr.mp4'
+import src from './FullMoon2010.jpg';
+import myvideo from './this is me.mp4'
 
 function App() {
   return (
@@ -12,17 +12,17 @@ function App() {
 
 <br/>
 
-<img src={"/imageInSrc.jpg"} />
+<img src={src} />
 
 <br />
 
-<img src={"/imageInPublic.jpg" }/>
+<img src="logo192.png"/>
 
 </div>
 
 <video width="320" height="240" controls>
 
-<source src='this is me.mp4' type='video/mp4' />
+<source src={myvideo} type='video/mp4' />
 
 </video>
     </div>
